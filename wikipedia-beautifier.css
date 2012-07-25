@@ -25,21 +25,21 @@
 }
 
 #firstHeading {
-    font-family: "minion-pro-1", "minion-pro-2", Palatino, Georgia, "Times New Roman", serif;
+    font-family: "Quicksand";
     width: 900px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 0.25em;
     padding-bottom: 0.25em;
     border: none;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 
 #bodyContent {
     line-height: 1.55em;
     font-size: 1.0em;
-    font-family: "minion-pro-1", "minion-pro-2", Palatino, Georgia, "Times New Roman", serif;
+    font-family: "Liberation Sans";
     border: 1px solid #ccc;
     width: 800px;
     padding: 50px;
