@@ -64,3 +64,23 @@
 pre {
     overflow: auto;
 }
+
+div#content {
+    background: lightgrey;
+}
+
+div#mw-head-base {
+    background-image: none;
+}
+
+div#bodyContent {
+    background: #F0F0F0;
+}
+
+div#siteSub {
+    display: none;
+}
+
+div#contentSub {
+    display: none;
+}
