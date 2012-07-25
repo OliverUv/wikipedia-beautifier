@@ -52,9 +52,4 @@ function beautifier()
     }
 }
 
-function initialScroll() {
-    window.scrollBy(0,100);
-}
-
 beautifier();
-initialScroll();

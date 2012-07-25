@@ -9,6 +9,12 @@
           "css": [ "wikipedia-beautifier.css" ],
           "js": [ "hyphenator.js", "wikipedia-beautifier.js" ],
           "run_at": "document_end"
+      },
+      {
+	  "matches": [ "*://*.wikipedia.org/wiki/*", "https://secure.wikimedia.org/wikipedia/*/wiki/*" ],
+	  "exclude_globs": [ "*#*" ],
+	  "js": [ "initial-scroll.js" ],
+	  "run_at": "document_end"
       }
   ]
 }
